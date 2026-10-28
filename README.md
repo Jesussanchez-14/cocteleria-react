@@ -1,31 +1,26 @@
-# Coctelaria React
+# Coctelería 
 
-Aplicación frontend educativa para explorar cócteles, buscar recetas en TheCocktailDB, guardar favoritos y registrar creaciones propias.
+Aplicación web desarrollada con React para explorar y gestionar cocteles.
 
-## Requisitos
-- Node.js y npm
+## Características
 
-## Ejecutar
-```bash
-npm install
-npm run dev
-```
+- Consulta de cócteles mediante una API pública.
+- Busqueda y filtrado de cócteles.
+- Creación y eliminacion de cócteles.
+- Sistema de favoritos.
+- Navegación entre páginas.
+- Tema claro y oscuro.
+- Almacenamiento de información en localStorage.
 
-Para comprobar la compilación:
-```bash
-npm run build
-```
+## Tecnologías utilizadas
 
-## API pública
-TheCocktailDB: `https://www.thecocktaildb.com/api/json/v1/1`
+- React
+- JavaScript
+- CSS
+- React Router
 
-## Vistas
-- `/` Inicio
-- `/cocteles` Catálogo y buscador de recetas
-- `/favoritos` Cócteles favoritos
-- `/mis-cocteles` Crear y eliminar recetas propias
-- `/cocteles/:id` Detalle dinámico
-- Cualquier otra dirección muestra la página 404
 
-## Persistencia
-Los favoritos, el tema visual y las creaciones propias se guardan en `localStorage`. No se utiliza backend ni base de datos.
+
+## Autor
+
+Proyecto académico de talendig desarrollado para practicar React y sus principales herramientas. Pot Juan De Jesus Sanchez Santana
